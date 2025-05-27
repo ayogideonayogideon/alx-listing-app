@@ -1,3 +1,31 @@
+# ALX Listing App
+
+## Objective
+The objective of this milestone is to scaffold the **Airbnb clone** project by creating a **Next.js app** with a well-structured codebase, reusable components, and essential configurations.
+
+## Project Description
+The **ALX Listing App** is designed to help users browse property listings efficiently. By setting up a solid foundation with TypeScript, Tailwind CSS, and Next.js, the project ensures **code maintainability and scalability** for further development.
+
+## Folder Structure & Purpose
+The project follows a structured approach for easy navigation:
+- **`components/common/`** → Contains reusable UI elements.
+  - `Card.tsx` → Displays property details.
+  - `Button.tsx` → Handles user actions like "Book Now."
+- **`interfaces/`** → Stores TypeScript interfaces.
+  - `index.ts` → Defines `CardProps` and `ButtonProps`.
+- **`constants/`** → Holds reusable data and configurations.
+  - `index.ts` → Contains API URLs, default values, and other global settings.
+- **`public/assets/`** → Stores images and SVGs used throughout the application.
+- **`pages/`** → Manages Next.js page structure.
+  - `index.tsx` → The main landing page showcasing the listings.
+
+## How to Run the Project Locally
+Follow these steps to set up and run the project on your machine:
+
+1. **Clone the repository**:
+   ```sh
+   git clone <your-repo-url>
+   cd alx-listing-app
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
